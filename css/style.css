@@ -1,0 +1,82 @@
+body{
+	
+background-color:#d5f4e6;	
+	
+}
+
+.body{
+
+display:flex;
+justify-content:center;
+align-items:center;	
+background-color: #d5f4e6;
+height:70vh;
+}
+
+
+.main {
+height:300px;
+width:300px;
+border-radius:150px;
+border:solid 7px black;	
+position:absolute;
+background-image:url("../images/clock.png");
+background-repeat: no-repeat;
+background-position: center;
+}	
+
+#mikros{
+height:80px;
+width:4px; 
+background-color:black;	
+margin-left: auto;
+margin-right: auto;
+left:149px;
+bottom:149px;
+position:absolute;
+transform-origin:0 100%;
+
+}
+
+#deutera{
+height:115px;
+width:2px; 
+background-color:#92a8d1;	
+position:absolute;
+right:150px;
+transform-origin:0 100%;
+left:149px;
+bottom:149px;
+}
+
+
+#megalos{
+height:110px;
+width:5px; 
+background-color:black;	
+margin-left: auto;
+margin-right: auto;
+left:149px;
+bottom:149px;
+position:absolute;
+transform-origin:0 100%;
+}
+
+
+#psifiaki{
+	
+display:flex;
+justify-content:center;
+align-items:center;	
+font-size: 450%;
+}
+
+#anafora{
+	height:1s0px;
+	width:10px;
+	border-radius: 5px;
+	background-color:black;
+	position:absolute;
+	left:148px;
+	bottom:148px;
+}
